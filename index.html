@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Lobster&family=Madimi+One&family=Pacifico&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Pacifico", cursive;
+        text-transform: capitalize;
+        color: white;
+    }
+    body{
+       background-color: rgba(0, 0, 0, 0.897);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    }
+    input{
+        width: 90%;
+        border-radius: 20px;
+        border: none;
+        padding: 15px 20px;
+        background-color: rgba(255, 255, 255, 0.082);
+        font-size: 20px;
+    }
+    button{
+        border: 2px solid rgba(255, 255, 255, 0.082);
+color: rgb(255, 255, 255);
+font-size: 20px;
+background: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+
+        cursor: pointer;
+        
+    }
+    button:hover{
+        color: rgba(255, 255, 255, 0.712);
+        background-color: rgba(255, 255, 255, 0.082);
+    }
+    div.form{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 40px;
+    /* border: 1px solid red; */
+    height: 30vh;
+    width: auto;
+    }
+   form{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid red; */
+    height: 30vh;
+    width: 80%;
+    }
+    form button{
+        position: relative;
+        
+    }
+    div.card{
+        /* border: 1px solid black; */
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        font-size: 30px;
+        text-align: center;
+
+        background-color: rgba(255, 255, 255, 0.082);
+        
+    }
+    div.next{
+        /* border: 1px solid black; */
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        font-size: 20px;
+        text-align: center;
+    }
+    div.next a{
+        border: 2px solid rgba(255, 255, 255, 0.082);
+color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 20px;
+        padding: 15px 60px ;
+        font-size: 20px;
+    
+    }
+    .text{
+        margin-top: 20px;
+        text-align: center;
+        
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    }
+    .text p {
+        
+        width: 60%;
+    }
+    @media screen and (max-width:600px){
+        *
+        {
+            font-size: 20px
+        }
+        form{
+            
+            flex-direction: column;
+        }form button{
+            margin: 10px;
+        }
+        .text p{
+            width: 90%;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .text h1{
+           
+            font-size: 25px;
+          
+        }
+    }
+    form input{
+        padding: 10px;
+    }
+</style>
+<body>
+    <div class="text">
+        <h1>youre name</h1>
+        <p>consectetur adipisicing elit. Cum quae reiciendis voluptate ipsam totam ab, provident doloribus unde pariatur corrupti. Dolore eos magni debitis voluptas neque, earum perspiciatis distinctio similique.</p>
+    </div>
+    <div class="form">
+        <form>
+            <input type="text" id="userInput" placeholder="your-name">
+            <button onclick="printInput()">submit</button>
+        </form>
+    </div>
+    <div class="card">
+        <label for="name">Your Name</label>
+        <p id="output">❓</p>
+    </div>
+    <!-- <div class="next">
+    <a href="#">Next</a>
+</div> -->
+</body>
+<script src="./app.js"></script>
+
+</html>
