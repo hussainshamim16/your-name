@@ -145,6 +145,78 @@ var out = document.getElementById(output)
     
 //     // const then = alert(user+' user Input');
 // }
+// function printInput(){
+//     var user = document.getElementById("userInput").value;
+//     if (user === ""){
+//         console.log('undefine');
+        
+//     }else{
+//         out.innerHTML == user;
+     
+//     }
+    
+//     // const then = alert(user+' user Input');
+// }
+// function printInput(){
+//     var user = document.getElementById("userInput").value;
+//     if (user === ""){
+//         console.log('undefine');
+        
+//     }else{
+//         out.innerHTML == user;
+     
+//     }
+    
+//     // const then = alert(user+' user Input');
+// }
+// function printInput(){
+//     var user = document.getElementById("userInput").value;
+//     if (user === ""){
+//         console.log('undefine');
+        
+//     }else{
+//         out.innerHTML == user;
+     
+//     }
+    
+//     // const then = alert(user+' user Input');
+// }
+// function printInput(){
+//     var user = document.getElementById("userInput").value;
+//     if (user === ""){
+//         console.log('undefine');
+        
+//     }else{
+//         out.innerHTML == user;
+     
+//     }
+    
+//     // const then = alert(user+' user Input');
+// }
+// function printInput(){
+//     var user = document.getElementById("userInput").value;
+//     if (user === ""){
+//         console.log('undefine');
+        
+//     }else{
+//         out.innerHTML == user;
+     
+//     }
+    
+//     // const then = alert(user+' user Input');
+// }
+// function printInput(){
+//     var user = document.getElementById("userInput").value;
+//     if (user === ""){
+//         console.log('undefine');
+        
+//     }else{
+//         out.innerHTML == user;
+     
+//     }
+    
+//     // const then = alert(user+' user Input');
+// }
 
 function printInput(){
     var user = document.getElementById("userInput").value;
